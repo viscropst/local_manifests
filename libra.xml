@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+	<!-- Device -->
+  	<project path="device/xiaomi/libra" name="AndropaX/android_device_xiaomi_libra-aosp" remote="github" revision="RR-6.0" />
+ 
+	<!-- Kernel -->
+  	<project path="kernel/xiaomi/msm8992" name="AndropaX/Resurrected-Kernel" remote="github" revision="RR-6.0" />
+        <project path="kernel/xiaomi/miui" name="MiCode/Xiaomi_Kernel_OpenSource" remote="github" revision="libra-l-oss" />
+
+	<!-- QCOM common -->
+  	<project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-13.0"/>
+
+   	<!-- Stlport cm-13.0 branch -->
+   	<project path="external/stlport" name="CyanogenMod/android_external_stlport" remote="github" revision="cm-13.0" />
+
+	<!-- TWRP -->
+	<project path="bootable/recovery-twrp" name="omnirom/android_bootable_recovery" remote="github" revision="android-6.0" />
+
+	<!-- busybox for TWRP cm-13.0 branch -->
+	<project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="github" revision="cm-13.0" />
+
+        <!-- Blobs -->
+        <project path="vendor/xiaomi" name="kumajaya/proprietary_vendor_xiaomi" remote="github" revision="cm-13.0" />
+
+</manifest>
