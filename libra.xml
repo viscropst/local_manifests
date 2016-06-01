@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-	<!-- Device -->
+	<!-- Removals -->
+        <remove-project name="android_build" />
+        <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
+        <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" />
+        <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
+
+        <!-- Build -->
+        <project path="build" name="AndropaX/android_build" remote="github" revision="marshmallow" />
+
+        <!-- Device -->
   	<project path="device/xiaomi/libra" name="AndropaX/android_device_xiaomi_libra-aosp" remote="github" revision="RR-6.0" />
  
 	<!-- Kernel -->
@@ -22,5 +31,11 @@
 
         <!-- Blobs -->
         <project path="vendor/xiaomi" name="kumajaya/proprietary_vendor_xiaomi" remote="github" revision="cm-13.0" />
+
+        <!-- Toolchains -->
+        <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9-kernel" name="UBERTC/aarch64-linux-android-4.9-kernel" remote="bucket" />
+        <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="UBERTC/aarch64-linux-android-4.9" remote="bucket" />
+        <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="UBERTC/arm-eabi-4.9" remote="bucket" />
+        <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="UBERTC/arm-linux-androideabi-4.9" remote="bucket" />
 
 </manifest>
