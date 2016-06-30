@@ -27,7 +27,7 @@
 	<project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="github" revision="cm-13.0" />
 
         <!-- Blobs -->
-        <project path="vendor/xiaomi" name="kumajaya/proprietary_vendor_xiaomi" remote="github" revision="cm-13.0" />
+        <project path="vendor/xiaomi" name="AndropaX/proprietary_vendor_xiaomi" remote="github" revision="RR-6.0" />
 
         <!-- Toolchains -->
         <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9-kernel" name="UBERTC/aarch64-linux-android-4.9-kernel" remote="bucket" />
