@@ -8,10 +8,13 @@
         <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
 
         <!-- Build -->
-        <project path="build" name="AndropaX/android_build" remote="github" revision="marshmallow" />
+        <project path="build" name="AndropaX/android_build" remote="github" revision="marshmallow" >
+         <copyfile src="core/root.mk" dest="Makefile" />
+        </project>
 
         <!-- Device -->
   	<project path="device/xiaomi/libra" name="AndropaX/android_device_xiaomi_libra-aosp" remote="github" revision="RR-6.0" />
+        <project path="device/xiaomi/aqualibra" name="AndropaX/kernel_building" remote="github" revision="OC-6.0" />
  
 	<!-- Kernel -->
   	<project path="kernel/xiaomi/msm8992" name="AndropaX/Resurrected-Kernel" remote="github" revision="RR-6.0" />
