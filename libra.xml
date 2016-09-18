@@ -1,45 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+        <remote name="bucket"
+	        fetch="https://bitbucket.org"
+	        revision="master" />
+
 	<!-- Removals -->
-        <remove-project name="android_build" />
-        <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
-        <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" />
+        <!-- remove-project name="android_build" -->
+        <!-- remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" -->
+        <!-- remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" -->
         <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
 
         <!-- Build -->
-        <project path="build" name="AndropaX/android_build" remote="github" revision="marshmallow" >
+        <!-- project path="build" name="AndropaX/android_build" remote="github" revision="marshmallow" >
          <copyfile src="core/root.mk" dest="Makefile" />
-        </project>
+        </project -->
 
         <!-- Device -->
-  	<project path="device/xiaomi/libra" name="AndropaX/android_device_xiaomi_libra-aosp" remote="github" revision="RR-6.0" />
-        <project path="device/xiaomi/aqualibra" name="AndropaX/kernel_building" remote="github" revision="OC-6.0" />
+  	<project path="device/xiaomi/libra" name="AndropaX/android_device_xiaomi_libra-aosp" remote="github" revision="exp-7.0" />
+        <!-- project path="device/xiaomi/aqualibra" name="AndropaX/kernel_building" remote="github" revision="OC-6.0" -->
  
 	<!-- Kernel -->
   	<project path="kernel/xiaomi/msm8992" name="AndropaX/Resurrected-Kernel" remote="github" revision="RR-6.0" />
-        <project path="kernel/xiaomi/msm8992oc" name="AndropaX/Resurrected-Kernel" remote="github" revision="OC-6.0" />
+        <!-- project path="kernel/xiaomi/msm8992oc" name="AndropaX/Resurrected-Kernel" remote="github" revision="OC-6.0" -->
         <!-- project path="kernel/xiaomi/miui" name="MiCode/Xiaomi_Kernel_OpenSource" remote="github" revision="libra-l-oss" -->
 
         <!-- QCOM common -->
-  	<project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-13.0"/>
+  	<project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-14.0"/>
 
    	<!-- Stlport cm-13.0 branch -->
-   	<project path="external/stlport" name="CyanogenMod/android_external_stlport" remote="github" revision="cm-13.0" />
+   	<project path="external/stlport" name="CyanogenMod/android_external_stlport" remote="github" revision="cm-14.0" />
 
 	<!-- TWRP -->
-	<project path="bootable/recovery-twrp" name="omnirom/android_bootable_recovery" remote="github" revision="android-6.0" />
+	<!-- project path="bootable/recovery-twrp" name="omnirom/android_bootable_recovery" remote="github" revision="android-6.0" -->
 
 	<!-- busybox for TWRP cm-13.0 branch -->
-	<project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="github" revision="cm-13.0" />
+	<!-- project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="github" revision="cm-13.0" -->
 
         <!-- Blobs -->
-        <project path="vendor/xiaomi" name="kumajaya/proprietary_vendor_xiaomi" remote="github" revision="cm-13.0" />
+        <project path="vendor/xiaomi" name="AndropaX/proprietary_vendor_xiaomi" remote="github" revision="exp-7.0" />
 
         <!-- Toolchains -->
         <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9-kernel" name="UBERTC/aarch64-linux-android-4.9-kernel" remote="bucket" />
-        <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="UBERTC/aarch64-linux-android-4.9" remote="bucket" />
-        <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="UBERTC/arm-eabi-4.9" remote="bucket" />
+        <!-- project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="UBERTC/aarch64-linux-android-4.9" remote="bucket" -->
+        <!-- project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="UBERTC/arm-eabi-4.9" remote="bucket" -->
         <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="UBERTC/arm-linux-androideabi-4.9" remote="bucket" />
 
+        <project path="hardware/qcom/msm8994" name="platform/hardware/qcom/msm8994" remote="aosp" />
+        
 </manifest>
