@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <remote name="bucket"
+    fetch="https://bitbucket.org/" />
+
+    <!-- Temp fix for camcoder -->
+    <remove-project name="CyanogenMod/android_frameworks_av" />
+    <project path="frameworks/av" name="Xiaomi-Mi4c-CyanogenMod-14/android_frameworks_av" remote="github" revision="cm-14.0" />
+
+    <!-- Device -->
+    <project path="device/xiaomi/libra" name="AndropaX/android_device_xiaomi_libra-caf" remote="github" revision="cm-14.0" />
+
+    <!-- Kernel -->
+    <project path="kernel/xiaomi/libra" name="Xiaomi-Mi4c-CyanogenMod-14/android_kernel_xiaomi_libra" remote="github" revision="cm-14.0" />
+
+    <!-- Vendor -->
+    <project path="vendor/xiaomi" name="AndropaX/proprietary_vendor_xiaomi" remote="github" revision="cm-14.0" />
+
+    <!-- QCOM common -->
+    <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-14.0" />
+
+    <!-- STLport -->
+    <project path="external/stlport" name="CyanogenMod/android_external_stlport" remote="github" revision="cm-14.0" />
+
+    <!-- Toolchains -->
+    <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9-kernel" name="UBERTC/aarch64-linux-android-4.9-kernel" remote="bucket" revision="master" />
+
+    <!-- msm8994 -->
+    <project path="hardware/qcom/msm8994" name="platform/hardware/qcom/msm8994" remote="aosp" />
+
+    <!-- boringssl-compat -->
+    <project path="external/sony/boringssl-compat" name="CyanogenMod/android_external_sony_boringssl-compat" remote="github" revision="cm-14.0" />
+
+</manifest>
