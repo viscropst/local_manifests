@@ -12,7 +12,7 @@
     <project path="device/xiaomi/libra" name="AndropaX/android_device_xiaomi_libra-caf" remote="github" revision="cm-14.0" />
 
     <!-- Kernel -->
-    <project path="kernel/xiaomi/libra" name="Xiaomi-Mi4c-CyanogenMod-14/android_kernel_xiaomi_libra" remote="github" revision="cm-14.0" />
+    <project path="kernel/xiaomi/libra" name="AndropaX/Resurrected-Kernel" remote="github" revision="cm-14.0" />
 
     <!-- Vendor -->
     <project path="vendor/xiaomi" name="AndropaX/proprietary_vendor_xiaomi" remote="github" revision="cm-14.0" />
