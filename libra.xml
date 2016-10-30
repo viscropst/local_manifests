@@ -8,11 +8,6 @@
     <remove-project name="CyanogenMod/android_frameworks_av" />
     <project path="frameworks/av" name="AndropaX/android_frameworks_av" remote="github" revision="cm-14.1" />
 
-    <!-- Temp fix for ril compile -->
-    <remove-project name="CyanogenMod/android_hardware_ril" />
-    <project path="hardware/ril" name="AndropaX/android_hardware_ril" remote="github" revision="cm-14.1" />
-    <project path="hardware/ril-caf" name="AndropaX/android_hardware_ril" remote="github" revision="cm-14.1-caf" />
-
     <!-- Device -->
     <project path="device/xiaomi/libra" name="AndropaX/android_device_xiaomi_libra-caf" remote="github" revision="cm-14.1" />
 
