@@ -2,13 +2,13 @@
 <manifest>
 
     <!-- Device -->
-    <project path="device/xiaomi/libra" name="AndropaX/android_device_xiaomi_libra-caf" remote="github" revision="cm-14.1" />
+    <project path="device/xiaomi/libra" name="AndropaX/android_device_xiaomi_libra-caf" remote="github" revision="RR-7.1" />
 
     <!-- Kernel -->
-    <project path="kernel/xiaomi/msm8992" name="AndropaX/Resurrected-Kernel" remote="github" revision="cm-14.1" />
+    <project path="kernel/xiaomi/msm8992" name="AndropaX/Resurrected-Kernel" remote="github" revision="RR-7.1" />
 
     <!-- Vendor -->
-    <project path="vendor/xiaomi" name="AndropaX/proprietary_vendor_xiaomi" remote="github" revision="cm-14.1" />
+    <project path="vendor/xiaomi" name="AndropaX/proprietary_vendor_xiaomi" remote="github" revision="RR-7.1" />
     <project path="vendor/qcom/binaries" name="TheMuppets/proprietary_vendor_qcom_binaries" remote="github" revision="cm-14.1" />
 
     <!-- QCOM common -->
