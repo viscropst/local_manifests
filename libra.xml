@@ -1,21 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-    <remote name="bucket"
-    fetch="https://bitbucket.org/" />
-
-    <!-- Temp fix for audio effects -->
-    <remove-project name="CyanogenMod/android_hardware_qcom_audio" />
-    <project path="hardware/qcom/audio/default" name="AndropaX/android_hardware_qcom_audio" groups="qcom,qcom_audio" />
-    <project path="hardware/qcom/audio-caf/apq8084" name="AndropaX/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.1-caf-8084" />
-  <project path="hardware/qcom/audio-caf/msm8916" name="AndropaX/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.1-caf-8916" />
-  <project path="hardware/qcom/audio-caf/msm8937" name="AndropaX/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.1-caf-8937" />
-  <project path="hardware/qcom/audio-caf/msm8952" name="AndropaX/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.1-caf-8952" />
-  <project path="hardware/qcom/audio-caf/msm8960" name="AndropaX/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.1-caf-8960" />
-  <project path="hardware/qcom/audio-caf/msm8974" name="AndropaX/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.1-caf-8974" />
-  <project path="hardware/qcom/audio-caf/msm8994" name="AndropaX/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.1-caf-8994" />
-  <project path="hardware/qcom/audio-caf/msm8996" name="AndropaX/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.1-caf-8996" />
-
     <!-- Device -->
     <project path="device/xiaomi/libra" name="AndropaX/android_device_xiaomi_libra-caf" remote="github" revision="cm-14.1" />
 
@@ -33,7 +18,6 @@
     <project path="external/stlport" name="CyanogenMod/android_external_stlport" remote="github" revision="cm-14.1" />
 
     <!-- Toolchains -->
-    <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9-kernel" name="UBERTC/aarch64-linux-android-4.9-kernel" remote="bucket" revision="master" />
     <project path="prebuilts/snapdragon-llvm" name="AndropaX/android_prebuilts_snapdragon-llvm" remote="github" revision="master" />
 
     <!-- msm8994 -->
