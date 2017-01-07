@@ -12,13 +12,13 @@
     <project path="vendor/qcom/binaries" name="TheMuppets/proprietary_vendor_qcom_binaries" remote="github" revision="cm-14.1" />
 
     <!-- QCOM common -->
-    <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-14.1" />
+    <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github" revision="cm-14.1" />
 
     <!-- Doze -->
-    <project path="packages/resources/devicesettings" name="CyanogenMod/android_packages_resources_devicesettings" remote="github" revision="cm-14.1" />
+    <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="cm-14.1" />
 
     <!-- STLport -->
-    <project path="external/stlport" name="CyanogenMod/android_external_stlport" remote="github" revision="cm-14.1" />
+    <project path="external/stlport" name="LineageOS/android_external_stlport" remote="github" revision="cm-14.1" />
 
     <!-- Toolchains -->
     <project path="prebuilts/snapdragon-llvm" name="AndropaX/android_prebuilts_snapdragon-llvm" remote="github" revision="master" />
@@ -27,6 +27,6 @@
     <project path="hardware/qcom/msm8994" name="platform/hardware/qcom/msm8994" remote="aosp" />
 
     <!-- boringssl-compat -->
-    <project path="external/sony/boringssl-compat" name="CyanogenMod/android_external_sony_boringssl-compat" remote="github" revision="cm-14.1" />
+    <project path="external/sony/boringssl-compat" name="LineageOS/android_external_sony_boringssl-compat" remote="github" revision="cm-14.1" />
 
 </manifest>
