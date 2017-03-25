@@ -2,7 +2,7 @@
 <manifest>
 
     <!-- Device -->
-    <project path="device/xiaomi/libra" name="AndropaX/android_device_xiaomi_libra" remote="github" revision="RR-7.1" />
+    <project path="device/xiaomi/libra" name="AndropaX/android_device_xiaomi_libra" remote="github" revision="twrp-7.1" />
 
     <!-- Kernel -->
     <project path="kernel/xiaomi/msm8992" name="AndropaX/android_kernel_xiaomi_msm8992" remote="github" revision="RR-7.1" />
