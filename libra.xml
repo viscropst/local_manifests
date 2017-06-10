@@ -10,13 +10,13 @@
     <!-- Vendor -->
     <project path="vendor/xiaomi" name="AndropaX/proprietary_vendor_xiaomi" remote="github" revision="RR-7.1" />
 
-    <!-- QCOM common -->
-    <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github" revision="cm-14.1" />
+    <!-- QCOM common 
+    <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github" revision="cm-14.1" />-->
 
     <!-- Doze -->
     <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="cm-14.1" />
 
     <!-- Toolchains -->
-    <project path="prebuilts/snapdragon-llvm" name="AndropaX/android_prebuilts_snapdragon-llvm" remote="github" revision="master" />
+    <project path="prebuilts/snapdragon/llvm-3.8" name="Mokee/android_prebuilts_snapdragon_llvm-3.8" remote="github" revision="mkn-mr1"/>
 
 </manifest>
