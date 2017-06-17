@@ -2,21 +2,25 @@
 <manifest>
 
     <!-- Device -->
-    <project path="device/xiaomi/libra" name="viscropst/android_device_xiaomi_libra" remote="github" revision="AEX-7.x" />
+    <!-- AEX-st <project path="device/xiaomi/libra" name="viscropst/android_device_xiaomi_libra" remote="github" revision="AEX-7.x" />-->
+    <!-- DU <project path="device/xiaomi/libra" name="viscropst/device_xiaomi_libra" remote="github" revision="n7x-caf" />-->
+    <!--AEX-test-->
+    <project path="device/xiaomi/libra" name="viscropst/device_xiaomi_libra" remote="github" revision="n7x-caf" />
 
     <!-- Kernel -->
-    <project path="kernel/xiaomi/msm8992" name="AndropaX/android_kernel_xiaomi_msm8992" remote="github" revision="RR-7.1" />
-
+     <!--AEX-st <project path="kernel/xiaomi/msm8992" name="AndropaX/android_kernel_xiaomi_msm8992" remote="github" revision="RR-7.1" />-->
+    <project path="kernel/xiaomi/msm8992" name="LineageOS/android_kernel_xiaomi_msm8992" remote="github" revision="cm-14.1" />
     <!-- Vendor -->
-    <project path="vendor/xiaomi" name="AndropaX/proprietary_vendor_xiaomi" remote="github" revision="RR-7.1" />
-
-    <!-- QCOM common 
-    <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github" revision="cm-14.1" />-->
-
-    <!-- Doze -->
-    <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="cm-14.1" />
-
+    <!--AEX-st <project path="vendor/xiaomi" name="AndropaX/proprietary_vendor_xiaomi" remote="github" revision="RR-7.1" />-->
+    <project path="vendor/xiaomi" name="csolanol/vendor_xiaomi" remote="github" revision="n7.1-miui" />
     <!-- Toolchains -->
     <project path="prebuilts/snapdragon/llvm-3.8" name="Mokee/android_prebuilts_snapdragon_llvm-3.8" remote="github" revision="mkn-mr1"/>
+   <!--DU cafs
+    <project path="system/qcom" name="android_system_qcom" remote="du" revision="n7x-caf"/>
+    <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="du" revision="n7x-caf"/>
+    <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="du" revision="n7x-caf"/>
+    <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="du" revision="n7x-caf"/>
+    <project path="external/connectivity" name="android_external_connectivity" remote="du" revision="n7x-caf"/>
+    <project path="external/stlport" name="android_external_stlport" remote="du" revision="n7x-caf"/>-->
 
 </manifest>
