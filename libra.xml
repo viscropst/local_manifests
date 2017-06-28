@@ -19,7 +19,7 @@
     <project path="vendor/xiaomi" name="csolanol/vendor_xiaomi" remote="github" revision="n7.1-miui" />
     <!-- Toolchains -->
     <!--Remove Default TC for DU -->
-    <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
+    <remove-project name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" />
     <!--Remove Default TC for AEX -->
     <remove name="platform_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9"/>
     <!--UBER Toolchains-->
