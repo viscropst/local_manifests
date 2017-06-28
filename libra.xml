@@ -5,7 +5,7 @@
     <!-- AEX-st <project path="device/xiaomi/libra" name="viscropst/android_device_xiaomi_libra" remote="github" revision="AEX-7.x" />-->
     <!-- DU <project path="device/xiaomi/libra" name="viscropst/device_xiaomi_libra" remote="github" revision="n7x-caf" />-->
     <!--AEX-test-->
-    <project path="device/xiaomi/libra" name="viscropst/device_xiaomi_libra" remote="github" revision="n7x-caf" />
+    <project path="device/xiaomi/libra" name="viscropst/device_xiaomi_libra" remote="github" revision="7.x" />
 
     <!-- Kernel -->
      <!--AEX-st <project path="kernel/xiaomi/msm8992" name="AndropaX/android_kernel_xiaomi_msm8992" remote="github" revision="RR-7.1" />-->
