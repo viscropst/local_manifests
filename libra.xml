@@ -18,12 +18,15 @@
     <!--AEX-st <project path="vendor/xiaomi" name="AndropaX/proprietary_vendor_xiaomi" remote="github" revision="RR-7.1" />-->
     <project path="vendor/xiaomi" name="csolanol/vendor_xiaomi" remote="github" revision="n7.1-miui" />
     <!-- Toolchains -->
-    <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="matthewdalex/aarch64-linux-android-4.9" remote="bb" />
-    <project path="prebuilts/snapdragon/llvm-3.8" name="Mokee/android_prebuilts_snapdragon_llvm-3.8" remote="github" revision="mkn-mr1"/>
     <!--Remove Default TC for DU--->
     <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
     <!--Remove Default TC for AEX--->
     <remove name="platform_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9"/>
+    <!--UBER Toolchains-->
+    <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="matthewdalex/aarch64-linux-android-4.9" remote="bb" />
+    <!-- Snapdragon Clang -->
+    <project path="prebuilts/snapdragon/llvm-3.8" name="Mokee/android_prebuilts_snapdragon_llvm-3.8" remote="github" revision="mkn-mr1"/>
+
     
    <!--DU cafs
     <project path="system/qcom" name="android_system_qcom" remote="du" revision="n7x-caf"/>
