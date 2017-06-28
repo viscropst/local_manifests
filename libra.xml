@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+    <remote name="bb"
+           fetch="https://bitbucket.org/"
+            revision="master"
+            />
 
     <!-- Device -->
     <!-- AEX-st <project path="device/xiaomi/libra" name="viscropst/android_device_xiaomi_libra" remote="github" revision="AEX-7.x" />-->
@@ -14,7 +18,13 @@
     <!--AEX-st <project path="vendor/xiaomi" name="AndropaX/proprietary_vendor_xiaomi" remote="github" revision="RR-7.1" />-->
     <project path="vendor/xiaomi" name="csolanol/vendor_xiaomi" remote="github" revision="n7.1-miui" />
     <!-- Toolchains -->
+    <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="matthewdalex/aarch64-linux-android-4.9" remote="bb" />
     <project path="prebuilts/snapdragon/llvm-3.8" name="Mokee/android_prebuilts_snapdragon_llvm-3.8" remote="github" revision="mkn-mr1"/>
+    <!--Remove Default TC for DU--->
+    <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
+    <!--Remove Default TC for AEX--->
+    <remove name="platform_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9"/>
+    
    <!--DU cafs
     <project path="system/qcom" name="android_system_qcom" remote="du" revision="n7x-caf"/>
     <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="du" revision="n7x-caf"/>
