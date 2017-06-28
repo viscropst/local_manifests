@@ -21,7 +21,7 @@
     <!--Remove Default TC for DU -->
     <remove-project name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" />
     <!--Remove Default TC for AEX -->
-    <remove name="platform_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9"/>
+    <remove-project name="platform_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9"/>
     <!--UBER Toolchains-->
     <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="matthewdalex/aarch64-linux-android-4.9" remote="bb" />
     <!-- Snapdragon Clang -->
