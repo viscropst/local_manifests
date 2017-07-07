@@ -1,0 +1,20 @@
+ 
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="bb"
+           fetch="https://bitbucket.org/"
+            revision="master"
+            />
+    <!-- Device -->
+    <project path="device/xiaomi/libra" name="viscropst/device_xiaomi_libra" remote="github" revision="7.x" />
+    <!-- Kernel -->
+    <project path="kernel/xiaomi/msm8992" name="AndropaX/android_kernel_xiaomi_msm8992" remote="github" revision="RR-7.1" />
+    <!-- Vendor -->
+    <project path="vendor/xiaomi" name="csolanol/vendor_xiaomi" remote="github" revision="n7.1-miui" />
+    <!--Remove Default TC for Nitrogen -->
+    <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9"/>
+    <!--UBER Toolchains-->
+    <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="matthewdalex/aarch64-linux-android-4.9" remote="bb" />
+    <!-- Snapdragon Clang -->
+    <project path="prebuilts/snapdragon/llvm-3.8" name="Mokee/android_prebuilts_snapdragon_llvm-3.8" remote="github" revision="mkn-mr1"/>
+</manifest>
