@@ -27,7 +27,7 @@
     <!-- Snapdragon Clang -->
     <project path="prebuilts/snapdragon/llvm-3.8" name="Mokee/android_prebuilts_snapdragon_llvm-3.8" remote="github" revision="mkn-mr1"/>
     <!-- Doze -->
-    <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" />
+    <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="cm-14.1"/>
     
    <!--DU cafs
     <project path="system/qcom" name="android_system_qcom" remote="du" revision="n7x-caf"/>
