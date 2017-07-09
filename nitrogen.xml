@@ -4,6 +4,11 @@
            fetch="https://bitbucket.org/"
             revision="master"
             />
+    <!--remove kenzo-->
+    <remove-project name="android_device_xiaomi_kenzo"/>
+    <remove-project name="android_device_xiaomi_msm8956-common"/>
+    <remove-project name="android_kernel_xiaomi_msm8956"/>
+    <remove-project name="proprietary_vendor_xiaomi"/>
     <!-- Device -->
     <project path="device/xiaomi/libra" name="viscropst/device_xiaomi_libra" remote="github" revision="7.x" />
     <!-- Kernel -->
