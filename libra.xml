@@ -8,26 +8,33 @@
     <!-- Device -->
     <!-- AEX-st <project path="device/xiaomi/libra" name="viscropst/android_device_xiaomi_libra" remote="github" revision="AEX-7.x" />-->
     <!-- DU <project path="device/xiaomi/libra" name="viscropst/device_xiaomi_libra" remote="github" revision="n7x-caf" />-->
-    <!--AEX-test-->
-    <project path="device/xiaomi/libra" name="viscropst/device_xiaomi_libra" remote="github" revision="7.x" />
+    <!--AEX-test <project path="device/xiaomi/libra" name="viscropst/device_xiaomi_libra" remote="github" revision="7.x" />-->
+    <project path="device/xiaomi/libra" name="viscropst/device_xiaomi_libra" remote="gh" revision="7.x" />
 
     <!-- Kernel -->
      <!--AEX-st <project path="kernel/xiaomi/msm8992" name="AndropaX/android_kernel_xiaomi_msm8992" remote="github" revision="RR-7.1" />-->
-    <project path="kernel/xiaomi/msm8992" name="LineageOS/android_kernel_xiaomi_msm8992" remote="github" revision="cm-14.1" />
+    <!--<project path="kernel/xiaomi/msm8992" name="LineageOS/android_kernel_xiaomi_msm8992" remote="github" revision="cm-14.1" />-->
+    <project path="kernel/xiaomi/msm8992" name="LineageOS/android_kernel_xiaomi_msm8992" remote="gh" revision="cm-14.1" />
     <!-- Vendor -->
     <!--AEX-st <project path="vendor/xiaomi" name="AndropaX/proprietary_vendor_xiaomi" remote="github" revision="RR-7.1" />-->
-    <project path="vendor/xiaomi" name="csolanol/vendor_xiaomi" remote="github" revision="n7.1-miui" />
+    <project path="vendor/xiaomi" name="csolanol/vendor_xiaomi" remote="gh" revision="n7.1-miui" />
+    <!--<project path="vendor/xiaomi" name="csolanol/vendor_xiaomi" remote="github" revision="n7.1-miui" />-->
     <!-- Toolchains -->
-    <!--Remove Default TC for DU -->
-    <remove-project name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" />
-    <!--Remove Default TC for AEX -->
-    <remove-project name="platform_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9"/>
+    <!--Remove Default TC for DU 
+    <remove-project name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" />-->
+    <!--Remove Default TC for AEX 
+    <remove-project name="platform_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9"/>-->
+    <!--Remove Default TC for CarbonROM -->
+    <remove-project name="CarbonROM/android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" />
+    
     <!--UBER Toolchains-->
     <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="matthewdalex/aarch64-linux-android-4.9" remote="bb" />
     <!-- Snapdragon Clang -->
-    <project path="prebuilts/snapdragon/llvm-3.8" name="Mokee/android_prebuilts_snapdragon_llvm-3.8" remote="github" revision="mkn-mr1"/>
+    <!--<project path="prebuilts/snapdragon/llvm-3.8" name="Mokee/android_prebuilts_snapdragon_llvm-3.8" remote="github" revision="mkn-mr1"/>-->
+    <project path="prebuilts/snapdragon/llvm-3.8" name="Mokee/android_prebuilts_snapdragon_llvm-3.8" remote="gh" revision="mkn-mr1"/>
     <!-- Doze -->
-    <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="cm-14.1"/>
+    <!--<project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="cm-14.1"/>-->
+    <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="gh" revision="cm-14.1"/>
     
    <!--DU cafs
     <project path="system/qcom" name="android_system_qcom" remote="du" revision="n7x-caf"/>
